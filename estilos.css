@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box ;
+    margin-top: 0;
+    padding: 0;
+
+}
+
+header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    min-width: 320px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+}
+header section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+.logo{
+    justify-content: flex-start;
+    padding: 15px;
+}
+.botones-encabezado {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.botones-encabezado ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+}
+li {
+    width: 100%;
+    margin-left: 10px;
+    list-style: none;
+    border-radius: 20px;
+    border: 2px solid salmon;
+    background-color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+img {
+    width: 40px;
+    height: 30px;
+}
+.imagen-galeria {
+    display: flex;
+    position: relative; 
+    width: 100%;
+    height: 300px;
+    min-width: 320px;
+    background-image: url(./asssets/sello2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+
+}
+.logo-play {
+    position: absolute;
+    margin-top: 250px;
+    border-radius: 50%;
+    font-size: 30px;
+
+}
+.icono-galeria {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-image: url("./asssets/iconoplay.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+.seccion-canciones {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    margin-top: 15px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+article {
+    width: 100%;
+    display: inline;
+    margin-left: 20px;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+article p {
+    
+}
+.icono-discografia-agenda {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./asssets/agenda.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icono-discografia-audifonos {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./asssets/audifonos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icono-discografia-microfono {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./asssets/microfono.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.icono-discografia-mezcladora {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url(./asssets/mescladora.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
